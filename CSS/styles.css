@@ -1,0 +1,86 @@
+h1 {
+  color: red;
+}
+
+p {
+  color: gray;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Classes e ids */
+.p-texto {
+  color: lightblue;
+  font-size: 20px;
+}
+
+.nome {
+  color: brown;
+}
+.hexa {
+  color: #6a40c4;
+}
+
+.rgba {
+  color: rgba(17, 197, 214, .32);
+  font-size: 40px;
+}
+
+#titulo-app {
+  color: purple;
+  font-size: 25px;
+}
+
+/* Backgrounds */
+.div-background {
+  background-image: url('https://www.w3schools.com/css/img_lights.jpg');
+  background-color: lightgray;
+  height: 300px;
+  width: 400px;
+}
+
+.titulo-background {
+  color: #FFF;
+  text-align: center;
+  padding-top: 130px;
+}
+
+/* Fontes */
+.family {
+  color: black;
+  font-family: 'times new roman', sans-serif;
+  font-size: 30px;
+}
+.family.serif {
+  font-family: serif;
+}
+.family.sans-serif {
+  font-family: 'arial', sans-serif;
+}
+.family.monospace {
+  font-family: 'courier new', monospace;
+}
+
+.italic {
+  font-style: italic;
+}
+.oblique {
+  font-style: oblique;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.variant {
+  font-variant: small-caps;
+}
+
+
+
+
+
