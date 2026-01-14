@@ -80,6 +80,61 @@ h2 {
   font-variant: small-caps;
 }
 
+/* Box Model */
+
+body {
+  margin: 0px;
+}
+
+.boxmodel {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  /* geral 
+  padding: 20px;*/
+
+  /* específico
+  padding-top: 30pxpx;
+  padding-left: 10px;
+  padding-right: 20pxpx;
+  padding-bottom: 5px;*/
+
+  /* específico agrupado
+  padding: 30px 20px 5px 10px;*/
+
+  /* específico agrupado 3 medidas - top, right-left, bottom */
+  padding: 30px 20px 5px;
+  
+  /* específico agrupado 2 medidas - top-bottom, right-left
+  padding: 30px 20px;*/
+
+  /* bordas */
+  border: 5px solid #000;
+  border-width: 5px 10px 5px 10px;
+  border-left-style: dashed; 
+  border-right-style: double;
+  border-radius: 20px;
+
+  /* margin */
+  margin: 50px;
+
+  /* display: none; - esconde os elementos */
+
+  /*display: inline-block; - transforma varios elementos um ao lado do outro */
+  display: block; - um embaixo do outro
+
+}
+
+.paragrago-box {
+  color: #000;
+  margin: 0px;
+}
+
+
+
+
+
 
 
 
